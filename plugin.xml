@@ -15,7 +15,7 @@
     </engines>
 
     <platform name="android">
-        <resource-file src="banner.png" target="res/drawable/banner.png" />
+        <resource-file src="banner.png" target="app/src/main/res/drawable/banner.png" />
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-feature android:name="android.software.leanback" android:required="false"/>
             <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
